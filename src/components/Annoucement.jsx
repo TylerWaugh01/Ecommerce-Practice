@@ -12,7 +12,7 @@ const Container = styled.div`
 `
 
 
-const Annoucements = () => {
+const Annoucement = () => {
   return (
     <div>
         <Container>
@@ -24,4 +24,4 @@ const Annoucements = () => {
   )
 }
 
-export default Annoucements
+export default Annoucement

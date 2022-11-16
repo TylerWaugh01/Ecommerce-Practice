@@ -45,7 +45,7 @@ const Circle = styled.div`
 `;
 
 const Image = styled.img`
-  height: 60%;
+  height: 75%;
   z-index: 2;
 `;
 
@@ -60,7 +60,7 @@ const Icon = styled.div`
   margin: 10px;
   transition: all 0.5s ease;
   &:hover {
-    background-color: #ff9d00;
+    background-color: #e9f5f5;
     transform: scale(1.1);
   }
 `;

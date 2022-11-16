@@ -1,4 +1,4 @@
-import Annoucements from '../components/Annoucements'
+import Annoucement from '../components/Annoucement'
 import Categories from '../components/Categories'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div>
-        <Annoucements />
+        <Annoucement />
         <Navbar/>
         <Slider />
         <Categories />
