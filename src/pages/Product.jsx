@@ -42,19 +42,19 @@ font-size: 40px;
 
 const FilterContainer = styled.div`
   width: 50%;
-  margin: 30px 0px;
+  margin: 30px 0;
   display: flex;
   justify-content: space-between;
 `;
 
 const Filter = styled.div`
   display: flex;
-  align-items: center;
+  align-items: center; 
 `;
 
 const FilterTitle = styled.span`
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 20px; 
+  font-weight: 200; 
 `;
 
 const FilterColor = styled.div`
@@ -63,12 +63,12 @@ const FilterColor = styled.div`
   border-radius: 50%;
   background-color: ${(props) => props.color};
   margin: 0px 5px;
-  cursor: pointer;
+  cursor: pointer; 
 `;
 
 const FilterSize = styled.select`
   margin-left: 10px;
-  padding: 5px;
+  padding: 5px; 
 `;
 
 const FilterSizeOption = styled.option``;
@@ -145,6 +145,14 @@ const Product = () => {
                 </FilterSize>
             </Filter>
         </FilterContainer>
+        <AddContainer>
+            <AmountContainer>
+              <Remove />
+              <Amount>1</Amount>
+              <Add />
+            </AmountContainer>
+            <Button>ADD TO CART</Button>
+          </AddContainer>
       </InfoContainer>
     </Wrapper>
     <Newsletter />
