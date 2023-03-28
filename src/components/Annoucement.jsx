@@ -16,7 +16,7 @@ const Annoucement = () => {
   return (
     <div>
         <Container>
-            Deals Go Here, And Specials 
+            Deals And Specials 
         </Container>
 
 
