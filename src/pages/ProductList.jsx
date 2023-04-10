@@ -59,7 +59,7 @@ const ProductList = () => {
           </Select>
           <Select>
             <Option disabled selected>
-              Size Options
+              Your Size Options
             </Option>
             <Option>XS</Option>
             <Option>S</Option>
@@ -72,8 +72,8 @@ const ProductList = () => {
           <FilterText>Sort Products:</FilterText>
           <Select>
             <Option selected>Newest</Option>
-            <Option>Price (asc)</Option>
-            <Option>Price (desc)</Option>
+            <Option>Price (Asc)</Option>
+            <Option>Price (Desc)</Option>
           </Select>
         </Filter>
       </FilterContainer>
