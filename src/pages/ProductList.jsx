@@ -59,7 +59,7 @@ const ProductList = () => {
           </Select>
           <Select>
             <Option disabled selected>
-              Your Size Options
+              Our Size Options
             </Option>
             <Option>XS</Option>
             <Option>S</Option>
