@@ -1,11 +1,13 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import styled from "styled-components";
+import butter from "../images/butter.png";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
+  background-color: coral;
 `;
 
 const Arrow = styled.div`
@@ -26,15 +28,65 @@ const Arrow = styled.div`
   opacity: 0.5;
 `;
 
+const Wrapper = styled.div`
+  height: 100px;
+`;
+
+const Slide = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+`;
+const ImgContainer = styled.div`
+  height: 100%;
+  flex: 1;
+`;
+
+const Image = styled.img`
+  height: 80%;
+`;
+const InfoContainer = styled.div`
+  flex: 1;
+  padding: 50px;
+`;
+
+const Title = styled.h1`
+  font-size: 70px;
+`;
+
+const Desc = styled.p`
+  margin: 50px 0;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 3px;
+`;
+
+const Button = styled.button``;
+
 export const Slider = () => {
   return (
     <div>
       <Container>
-        <Arrow direction='left'>
+        <Arrow direction="left">
           <ArrowLeftOutlined />
         </Arrow>
+        <Wrapper>
+          <Slide>
+            <ImgContainer>
+              <Image src={butter} />
+            </ImgContainer>
+            <InfoContainer>
+              <Title>SUMMER SALE</Title>
+              <Desc>
+                DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.
+              </Desc>
+              <Button>SHOP NOW</Button>
+            </InfoContainer>
+          </Slide>
+        </Wrapper>
 
-        <Arrow direction='right'>
+        <Arrow direction="right">
           <ArrowRightOutlined />
         </Arrow>
       </Container>
