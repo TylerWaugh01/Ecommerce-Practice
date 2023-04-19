@@ -1,13 +1,14 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
 import styled from "styled-components";
-import butter from "../images/butter.png";
+import { useState } from "react";
+import { sliderItems } from "../data";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
-  background-color: coral;
+  overflow: hidden;
 `;
 
 const Arrow = styled.div`
@@ -26,10 +27,13 @@ const Arrow = styled.div`
   margin: auto;
   cursor: pointer;
   opacity: 0.5;
+  z-index: 2;
 `;
 
 const Wrapper = styled.div`
   height: 100px;
+  display: flex;
+  transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 
 const Slide = styled.div`
@@ -37,7 +41,9 @@ const Slide = styled.div`
   height: 100vh;
   display: flex;
   align-items: center;
+  background-color: #${(props) => props.bg};
 `;
+
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
@@ -62,31 +68,50 @@ const Desc = styled.p`
   letter-spacing: 3px;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+`;
+
 
 export const Slider = () => {
+  
+  const [slideIndex, setSlideIndex] = useState(0);
+
+
+  const handleClick = (direction) => {
+    if (direction === "left") {
+      setSlideIndex(slideIndex > 0 ? slideIndex - 1 : 2);
+    } else {
+      setSlideIndex(slideIndex < 2 ? slideIndex + 1 : 0);
+    }
+  };
+  
   return (
     <div>
       <Container>
-        <Arrow direction="left">
+        <Arrow direction="left" onClick={() =>handleClick('left')}>
           <ArrowLeftOutlined />
         </Arrow>
-        <Wrapper>
-          <Slide>
+        <Wrapper slideIndex={slideIndex}>
+          {sliderItems.map((item) => (
+          <Slide bg={item.bg}>
             <ImgContainer>
-              <Image src={butter} />
+              <Image src={item.img}/>
             </ImgContainer>
             <InfoContainer>
-              <Title>SUMMER SALE</Title>
+              <Title>{item.title}</Title>
               <Desc>
-                DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.
+                {item.desc}
               </Desc>
               <Button>SHOP NOW</Button>
             </InfoContainer>
           </Slide>
+          ))} 
         </Wrapper>
-
-        <Arrow direction="right">
+        <Arrow direction="right" onClick={() =>handleClick('right')}>
           <ArrowRightOutlined />
         </Arrow>
       </Container>
