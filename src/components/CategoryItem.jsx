@@ -22,8 +22,9 @@ export default function CategoryItem({item}) {
     <Container>
       <Image src={item.img} />
       <Info>
-        <Title>{item.title}</Title>
+       
         <Button>SHOP NOW</Button>
+       <Button>SAVE NOW<NOW></NOW></Button>
       </Info>
     </Container>
   )
