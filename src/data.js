@@ -1,6 +1,7 @@
 import butter from './images/butter.png'
 import ball from "./images/ball.png"
 import nap from "./images/nap.png"
+import bed from "./images/dog-bed.jpg"
 
 
 export const sliderItems = [
@@ -8,7 +9,7 @@ export const sliderItems = [
       id: 1,
       img: butter,
       title: "HARNESS COLLECTION",
-      desc: "EVERY SIZES, EVERY STYLE.",
+      desc: "EVERY SIZE, EVERY STYLE.",
       bg: "f5fafd",
     },
     {
@@ -30,8 +31,8 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: bed,
+      title: "NAP STYLE!",
     },
     {
       id: 2,
@@ -44,3 +45,6 @@ export const sliderItems = [
       title: "LIGHT JACKETS",
     },
   ];
+
+
+  // Photo by Albina White: https://www.pexels.com/photo/beagle-lying-on-dog-bed-11059996/
