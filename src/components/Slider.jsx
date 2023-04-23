@@ -78,7 +78,7 @@ const Button = styled.button`
 `;
 
 
-export const Slider = () => {
+const Slider = () => {
   
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -99,7 +99,7 @@ export const Slider = () => {
         </Arrow>
         <Wrapper slideIndex={slideIndex}>
           {sliderItems.map((item) => (
-          <Slide bg={item.bg}>
+          <Slide bg={item.bg} key={item.id}>
             <ImgContainer>
               <Image src={item.img}/>
             </ImgContainer>
@@ -120,3 +120,5 @@ export const Slider = () => {
     </div>
   );
 };
+
+export default Slider
