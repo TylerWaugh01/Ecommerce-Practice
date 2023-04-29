@@ -5,6 +5,7 @@ display: flex;
 `;
 
 const Left = styled.div`  
+flex: 1;
 `
 
 const Center = styled.div`  
