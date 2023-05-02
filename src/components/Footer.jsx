@@ -50,6 +50,16 @@ const Right = styled.div`
   padding: 20px;
 `;
 
+const ContactItem = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
+const Payment = styled.img`
+    width: 50%;
+`;
+
 const Title = styled.h3`
   margin-bottom: 30px;
 `;
@@ -107,7 +117,18 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
-      <Right></Right>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem>
+        <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336        </ContactItem>
+        <ContactItem>
+          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+        </ContactItem>
+        <ContactItem>
+          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+        </ContactItem>
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
     </Container>
   );
 };
