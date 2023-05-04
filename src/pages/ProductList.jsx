@@ -1,7 +1,8 @@
-import React from 'react'
+const Container = styled.div``;
 
 export const ProductList = () => {
   return (
-    <div>ProductList</div>
+    <Container>
+  </Container>
   )
 }
