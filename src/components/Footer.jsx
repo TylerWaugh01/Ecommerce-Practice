@@ -26,6 +26,7 @@ const Desc = styled.p``;
 
 const SocialContainer = styled.div`
   display: flex;
+  margin-top: 10px;
 `;
 
 const SocialIcon = styled.div`
