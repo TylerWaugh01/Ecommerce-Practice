@@ -70,10 +70,10 @@ const Image = styled.img`
 `;
 
 const Details = styled.div`
-  padding: 20px;
+  /* padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-around; */
 `;
 
 const ProductName = styled.span``;
