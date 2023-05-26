@@ -70,10 +70,10 @@ const Image = styled.img`
 `;
 
 const Details = styled.div`
-  /* padding: 20px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; */
+  justify-content: space-around;
 `;
 
 const ProductName = styled.span``;
@@ -116,7 +116,7 @@ const ProductPrice = styled.div`
 `;
 
 const Hr = styled.hr`
-  background-color: #eee;
+  background-color: #861919;
   border: none;
   height: 1px;
 `;
@@ -149,7 +149,7 @@ const Button = styled.button`
   width: 100%;
   padding: 10px;
   background-color: black;
-  color: white;
+  color: #6388ce;
   font-weight: 600;
 `;
 
