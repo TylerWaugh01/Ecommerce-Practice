@@ -159,9 +159,9 @@ const Cart = () => {
       <Navbar />
       <Announcement />
       <Wrapper>
-        <Title>YOUR BAG</Title>
+        <Title>YOUR PERSONAL BAG</Title>
         <Top>
-          <TopButton>CONTINUE SHOPPING</TopButton>
+          <TopButton>HOW TO CONTINUE SHOPPING</TopButton>
           <TopTexts>
             <TopText>Shopping Bag(2)</TopText>
             <TopText>Your Wishlist (0)</TopText>
