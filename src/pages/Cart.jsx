@@ -6,8 +6,10 @@ import Annoucement from "../components/Annoucement";
 const Container = styled.div`
 `
 const Wrapper = styled.div`
+  padding: 20px;
 `
-const Title = styled.div`
+const Title = styled.h1`
+  font-weight: 300;
 `
 const Top = styled.div`
 `
