@@ -12,6 +12,7 @@ const Title = styled.h1`
   font-weight: 300;
 `
 const Top = styled.div`
+padding-left: 30;
 `
 const Bottom = styled.div`
 `
