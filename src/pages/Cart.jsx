@@ -91,14 +91,14 @@ const Cart = () => {
                 <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> HAKURA T-SHIRT
+                    <b>Product:</b> Large T-SHIRT
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
                   <ProductColor />
                   <ProductSize>
-                    <b>Size:</b> M
+                    <b>Size:</b>M
                   </ProductSize>
                 </Details>
               </ProductDetail>
