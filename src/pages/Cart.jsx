@@ -58,7 +58,7 @@ const Cart = () => {
         <Top>
           <TopButton>Continue Shopping</TopButton>
           <TopTexts>
-            <TopText>Shopping Bag(2)</TopText>
+            <TopText>Shopping Bag(5)</TopText>
             <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
@@ -91,7 +91,7 @@ const Cart = () => {
                 <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b>T-SHIRT
+                    <b>Product:</b>Light T Shirt
                   </ProductName>
                   <ProductId>
                     <b>ID:</b> 93813718293
@@ -108,7 +108,7 @@ const Cart = () => {
                   <ProductAmount>1</ProductAmount>
                   <Remove />
                 </ProductAmountContainer>
-                <ProductPrice>$20</ProductPrice>
+                <ProductPrice>$50</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
