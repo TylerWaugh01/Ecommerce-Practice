@@ -56,7 +56,7 @@ const Cart = () => {
       <Wrapper>
         <Title>Your Bag</Title>
         <Top>
-          <TopButton>Continue Shopping</TopButton>
+          <TopButton>Continue To The Shopping</TopButton>
           <TopTexts>
             <TopText>Shopping Bag(5)</TopText>
             <TopText>Your Wishlist (0)</TopText>
