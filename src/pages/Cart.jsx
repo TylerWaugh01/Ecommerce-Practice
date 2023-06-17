@@ -11,12 +11,12 @@ const Title = styled.h1`
   font-weight: 300;
   text-align: center;
 `;
-// const Top = styled.div`
-//   display: flex;
-//   align-items: center;
-//   justify-content: space-between;
-//   padding: 20px;
-// `;
+const Top = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+`;
 const TopButton = styled.button`
   padding: 10px;
   font-weight: 600;
