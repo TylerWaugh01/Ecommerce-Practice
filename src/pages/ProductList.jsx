@@ -51,6 +51,8 @@ export const ProductList = () => {
             <Option>Blue</Option>
             <Option>Yellow</Option>
             <Option>Green</Option>
+            <Option>Aqua</Option>
+            <Option>Light Green</Option>
           </Select>
           <Select>
             <Option disabled selected>
