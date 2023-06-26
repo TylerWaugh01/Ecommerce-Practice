@@ -15,11 +15,11 @@ const Container = styled.div`
   justify-content: center;
 `;
 
-// const Wrapper = styled.div`
-//   width: 40%;
-//   padding: 20px;
-//   background-color: white;
-// `;
+const Wrapper = styled.div`
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+`;
 
 const Title = styled.h1`
   font-size: 24px;
