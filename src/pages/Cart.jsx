@@ -1,3 +1,4 @@
+import { Add, Remove } from "@material-ui/icons";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -42,6 +43,67 @@ const Bottom = styled.div`
 
 const Info = styled.div`
   flex: 3;
+`;
+
+const Product = styled.div`
+
+`;
+
+const ProductDetail = styled.div`
+
+`;
+
+const Image = styled.img`
+`;
+
+const Details = styled.div`
+
+`;
+
+const ProductName = styled.span``;
+
+const ProductId = styled.span``;
+
+const ProductColor = styled.div`
+
+`;
+
+const ProductSize = styled.span``;
+
+const PriceDetail = styled.div`
+`;
+
+const ProductAmountContainer = styled.div`
+
+`;
+
+const ProductAmount = styled.div`
+
+`;
+
+const ProductPrice = styled.div`
+
+`;
+
+const Hr = styled.hr`
+
+`;
+
+
+const SummaryTitle = styled.h1`
+
+`;
+
+const SummaryItem = styled.div`
+
+`;
+
+const SummaryItemText = styled.span``;
+
+const SummaryItemPrice = styled.span``;
+
+const Button = styled.button`
+
 `;
 
 const Summary = styled.div`
