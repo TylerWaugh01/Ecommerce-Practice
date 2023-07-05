@@ -116,10 +116,10 @@ const Cart = () => {
         <Top>
           <TopButton>Continue To The Shopping</TopButton>
           <TopTexts>
-            <TopText>Shopping Bag(5)</TopText>
+            <TopText>Shopping Bag(9)</TopText>
             <TopText>Your Wishlist (0)</TopText>
           </TopTexts>
-          <TopButton type="filled">CHECKOUT NOW</TopButton>
+          <TopButton type="filled">CHECKOUT</TopButton>
         </Top>
         <Bottom>
           <Info>
