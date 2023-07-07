@@ -70,28 +70,22 @@ const PriceDetail = styled.div`
 `;
 
 const ProductAmountContainer = styled.div`
-
 `;
 
 const ProductAmount = styled.div`
-
 `;
 
 const ProductPrice = styled.div`
-
 `;
 
 const Hr = styled.hr`
-
 `;
 
 
 const SummaryTitle = styled.h1`
-
 `;
 
 const SummaryItem = styled.div`
-
 `;
 
 const SummaryItemText = styled.span``;
