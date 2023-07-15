@@ -81,6 +81,7 @@ const ProductColor = styled.div`
   width: 20px;
   height: 20px;
   border-radius: 50%;
+  background-color: ${(props) => props.color};
 `;
 
 const ProductSize = styled.span``;
@@ -150,7 +151,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293222989
                   </ProductId>
-                  <ProductColor/>
+                  <ProductColor color="black" />
                   <ProductSize>
                     <b>Size:</b> 40
                   </ProductSize>
