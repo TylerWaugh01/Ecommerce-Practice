@@ -87,7 +87,11 @@ const ProductColor = styled.div`
 const ProductSize = styled.span``;
 
 const PriceDetail = styled.div`
-flex: 2;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 `;
 
 const ProductAmountContainer = styled.div`
