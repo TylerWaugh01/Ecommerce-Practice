@@ -157,12 +157,12 @@ const Cart = () => {
                   </ProductId>
                   <ProductColor color="black" />
                   <ProductSize>
-                    <b>Size:</b> 40
+                    <b>Size:</b> 50
                   </ProductSize>
                 </Details>
               </ProductDetail>
               <PriceDetail>
-                Product
+                Products
               </PriceDetail>
             </Product>
             <Hr />
