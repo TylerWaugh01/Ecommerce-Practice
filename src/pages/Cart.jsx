@@ -16,10 +16,10 @@ const Title = styled.h1`
 `;
 
 const Top = styled.div`
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
 `;
 
 const TopButton = styled.button`
@@ -37,8 +37,6 @@ const TopText = styled.span`
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
-
-
 `;
 
 const Info = styled.div`
