@@ -64,9 +64,11 @@ flex-direction: column;
 justify-content: space-around;
 `;
 
-const ProductName = styled.span``;
+const ProductName = styled.span`
+`;
 
-const ProductId = styled.span``;
+const ProductId = styled.span`
+`;
 
 const ProductColor = styled.div`
   width: 20px;
@@ -75,7 +77,8 @@ const ProductColor = styled.div`
   background-color: ${(props) => props.color};
 `;
 
-const ProductSize = styled.span``;
+const ProductSize = styled.span`
+`;
 
 const PriceDetail = styled.div`
   flex: 1;
@@ -106,9 +109,11 @@ const SummaryTitle = styled.h1`
 const SummaryItem = styled.div`
 `;
 
-const SummaryItemText = styled.span``;
+const SummaryItemText = styled.span`
+`;
 
-const SummaryItemPrice = styled.span``;
+const SummaryItemPrice = styled.span`
+`;
 
 const Button = styled.button`
   width: 100%;
@@ -165,7 +170,7 @@ const Cart = () => {
                     <b>Product:</b>T Shirt
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b>93813718293
+                    <b>ID:</b>938137182938
                   </ProductId>
                   <ProductColor />
                   <ProductSize>
@@ -183,7 +188,7 @@ const Cart = () => {
               </PriceDetail>
             </Product>
           </Info>
-          <Summary>summary</Summary>
+          <Summary>Summary</Summary>
         </Bottom>
       </Wrapper>
       <Footer />
