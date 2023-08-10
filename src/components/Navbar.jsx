@@ -10,7 +10,7 @@ const Container = styled.div`
 
 const Wrapper = styled.div`
   padding: 10px 20px;
-  display: flex; // Wrapper is parent of Left/Center/Right, flexbox to make horizontal
+  display: flex; 
   align-items: center;
   justify-content: space-between;
 `;
