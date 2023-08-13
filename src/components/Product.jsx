@@ -12,14 +12,13 @@ const Info = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
-
   transition: all 0.5s ease;
+  cursor: pointer;
 `;
 
 const Container = styled.div`
@@ -28,8 +27,8 @@ const Container = styled.div`
   min-width: 280px;
   height: 350px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   background-color: #f5fbfd;
   position: relative;
 
@@ -37,7 +36,6 @@ const Container = styled.div`
     opacity: 1;
   }
 `;
-
 
 const Circle = styled.div`
   width: 200px;
@@ -53,23 +51,22 @@ const Image = styled.img`
 `;
 
 const Icon = styled.div`
-width: 40px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: white;
-  display: flex; 
+  display: flex;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   margin: 10px;
   transition: all 0.5s ease;
-
   &:hover {
     background-color: #e9f5f5;
     transform: scale(1.1);
-  } 
+  }
 `;
 
-export const Product = ({ item }) => {
+const Product = ({ item }) => {
   return (
     <Container>
       <Circle />
@@ -88,3 +85,5 @@ export const Product = ({ item }) => {
     </Container>
   );
 };
+
+export default Product;
